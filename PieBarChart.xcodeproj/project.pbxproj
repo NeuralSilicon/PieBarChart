@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58E54C2F268F7BC700EC159A /* PieBarChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E54C25268F7BC700EC159A /* PieBarChart.framework */; };
-		58E54C34268F7BC700EC159A /* PieBarChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C33268F7BC700EC159A /* PieBarChartTests.swift */; };
 		58E54C36268F7BC700EC159A /* PieBarChart.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E54C28268F7BC700EC159A /* PieBarChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58E54C46268F7BDB00EC159A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C45268F7BDB00EC159A /* AppDelegate.swift */; };
-		58E54C48268F7BDB00EC159A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C47268F7BDB00EC159A /* SceneDelegate.swift */; };
-		58E54C4A268F7BDB00EC159A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C49268F7BDB00EC159A /* ViewController.swift */; };
-		58E54C4D268F7BDB00EC159A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E54C4B268F7BDB00EC159A /* Main.storyboard */; };
+		58E54C4A268F7BDB00EC159A /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C49268F7BDB00EC159A /* BarChart.swift */; };
 		58E54C4F268F7BDC00EC159A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E54C4E268F7BDC00EC159A /* Assets.xcassets */; };
 		58E54C52268F7BDC00EC159A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E54C50268F7BDC00EC159A /* LaunchScreen.storyboard */; };
+		58E54C5A268F80EB00EC159A /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C59268F80EB00EC159A /* BarChart.swift */; };
+		58E54C5D268F810900EC159A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C5C268F810900EC159A /* Model.swift */; };
+		58E54C60268F81FA00EC159A /* BarChartScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C5F268F81FA00EC159A /* BarChartScrollView.swift */; };
+		58E54C62268F822C00EC159A /* BarChartAddSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C61268F822C00EC159A /* BarChartAddSubviews.swift */; };
+		58E54C65268F84A000EC159A /* PieBarChartProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C64268F84A000EC159A /* PieBarChartProtocol.swift */; };
+		58E54C67268F869E00EC159A /* PieBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C66268F869E00EC159A /* PieBarChart.swift */; };
+		58E54C6A268F8B3000EC159A /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C69268F8B3000EC159A /* Component.swift */; };
+		58E54C6C268F8D5400EC159A /* PieBarChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58E54C25268F7BC700EC159A /* PieBarChart.framework */; };
+		58E54C6D268F8D5400EC159A /* PieBarChart.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 58E54C25268F7BC700EC159A /* PieBarChart.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		58E54C7A268F917E00EC159A /* TabbarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C77268F917E00EC159A /* TabbarConfig.swift */; };
+		58E54C7B268F917E00EC159A /* TabbarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C78268F917E00EC159A /* TabbarModel.swift */; };
+		58E54C7C268F917F00EC159A /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C79268F917E00EC159A /* TabbarVC.swift */; };
+		58E54C7F268F999000EC159A /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C7E268F999000EC159A /* PieChart.swift */; };
+		58E54C82268F99C800EC159A /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C80268F99C800EC159A /* PieChart.swift */; };
+		58E54C83268F99C800EC159A /* PieChartScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C81268F99C800EC159A /* PieChartScrollView.swift */; };
+		58E54C85268F99D000EC159A /* VerticalStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C84268F99CF00EC159A /* VerticalStack.swift */; };
+		58E54C87268F99D600EC159A /* HorizontalStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C86268F99D600EC159A /* HorizontalStack.swift */; };
+		58E54C8B268F9E3A00EC159A /* PieBChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E54C8A268F9E3A00EC159A /* PieBChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		58E54C30268F7BC700EC159A /* PBXContainerItemProxy */ = {
+		58E54C6E268F8D5400EC159A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 58E54C1C268F7BC700EC159A /* Project object */;
 			proxyType = 1;
@@ -28,21 +42,46 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		58E54C70268F8D5400EC159A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				58E54C6D268F8D5400EC159A /* PieBarChart.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		58E54C25268F7BC700EC159A /* PieBarChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PieBarChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E54C28268F7BC700EC159A /* PieBarChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PieBarChart.h; sourceTree = "<group>"; };
 		58E54C29268F7BC700EC159A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		58E54C2E268F7BC700EC159A /* PieBarChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PieBarChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		58E54C33268F7BC700EC159A /* PieBarChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieBarChartTests.swift; sourceTree = "<group>"; };
-		58E54C35268F7BC700EC159A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58E54C43268F7BDB00EC159A /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E54C45268F7BDB00EC159A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58E54C47268F7BDB00EC159A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58E54C49268F7BDB00EC159A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		58E54C4C268F7BDB00EC159A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58E54C49268F7BDB00EC159A /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
 		58E54C4E268F7BDC00EC159A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E54C51268F7BDC00EC159A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E54C53268F7BDC00EC159A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58E54C59268F80EB00EC159A /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		58E54C5C268F810900EC159A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		58E54C5F268F81FA00EC159A /* BarChartScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartScrollView.swift; sourceTree = "<group>"; };
+		58E54C61268F822C00EC159A /* BarChartAddSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartAddSubviews.swift; sourceTree = "<group>"; };
+		58E54C64268F84A000EC159A /* PieBarChartProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieBarChartProtocol.swift; sourceTree = "<group>"; };
+		58E54C66268F869E00EC159A /* PieBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieBarChart.swift; sourceTree = "<group>"; };
+		58E54C69268F8B3000EC159A /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		58E54C77268F917E00EC159A /* TabbarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarConfig.swift; sourceTree = "<group>"; };
+		58E54C78268F917E00EC159A /* TabbarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarModel.swift; sourceTree = "<group>"; };
+		58E54C79268F917E00EC159A /* TabbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		58E54C7E268F999000EC159A /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		58E54C80268F99C800EC159A /* PieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		58E54C81268F99C800EC159A /* PieChartScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartScrollView.swift; sourceTree = "<group>"; };
+		58E54C84268F99CF00EC159A /* VerticalStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStack.swift; sourceTree = "<group>"; };
+		58E54C86268F99D600EC159A /* HorizontalStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalStack.swift; sourceTree = "<group>"; };
+		58E54C8A268F9E3A00EC159A /* PieBChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieBChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,18 +92,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58E54C2B268F7BC700EC159A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58E54C2F268F7BC700EC159A /* PieBarChart.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		58E54C40268F7BDB00EC159A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E54C6C268F8D5400EC159A /* PieBarChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				58E54C27268F7BC700EC159A /* PieBarChart */,
-				58E54C32268F7BC700EC159A /* PieBarChartTests */,
 				58E54C44268F7BDB00EC159A /* SampleProject */,
 				58E54C26268F7BC700EC159A /* Products */,
+				58E54C6B268F8D5400EC159A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				58E54C25268F7BC700EC159A /* PieBarChart.framework */,
-				58E54C2E268F7BC700EC159A /* PieBarChartTests.xctest */,
 				58E54C43268F7BDB00EC159A /* SampleProject.app */,
 			);
 			name = Products;
@@ -96,31 +127,115 @@
 			children = (
 				58E54C28268F7BC700EC159A /* PieBarChart.h */,
 				58E54C29268F7BC700EC159A /* Info.plist */,
+				58E54C68268F86A600EC159A /* PieBarChart */,
+				58E54C63268F82F100EC159A /* PieBarChartDelegate */,
+				58E54C5B268F80EE00EC159A /* BarChart */,
+				58E54C7D268F996A00EC159A /* Pie */,
+				58E54C5E268F810B00EC159A /* Model */,
 			);
 			path = PieBarChart;
-			sourceTree = "<group>";
-		};
-		58E54C32268F7BC700EC159A /* PieBarChartTests */ = {
-			isa = PBXGroup;
-			children = (
-				58E54C33268F7BC700EC159A /* PieBarChartTests.swift */,
-				58E54C35268F7BC700EC159A /* Info.plist */,
-			);
-			path = PieBarChartTests;
 			sourceTree = "<group>";
 		};
 		58E54C44268F7BDB00EC159A /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				58E54C72268F8F9A00EC159A /* View */,
+				58E54C71268F8F3000EC159A /* Resources */,
+			);
+			path = SampleProject;
+			sourceTree = "<group>";
+		};
+		58E54C5B268F80EE00EC159A /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				58E54C59268F80EB00EC159A /* BarChart.swift */,
+				58E54C61268F822C00EC159A /* BarChartAddSubviews.swift */,
+				58E54C5F268F81FA00EC159A /* BarChartScrollView.swift */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		58E54C5E268F810B00EC159A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58E54C5C268F810900EC159A /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58E54C63268F82F100EC159A /* PieBarChartDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				58E54C64268F84A000EC159A /* PieBarChartProtocol.swift */,
+			);
+			path = PieBarChartDelegate;
+			sourceTree = "<group>";
+		};
+		58E54C68268F86A600EC159A /* PieBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				58E54C66268F869E00EC159A /* PieBarChart.swift */,
+			);
+			path = PieBarChart;
+			sourceTree = "<group>";
+		};
+		58E54C6B268F8D5400EC159A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58E54C71268F8F3000EC159A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				58E54C45268F7BDB00EC159A /* AppDelegate.swift */,
-				58E54C47268F7BDB00EC159A /* SceneDelegate.swift */,
-				58E54C49268F7BDB00EC159A /* ViewController.swift */,
-				58E54C4B268F7BDB00EC159A /* Main.storyboard */,
 				58E54C4E268F7BDC00EC159A /* Assets.xcassets */,
 				58E54C50268F7BDC00EC159A /* LaunchScreen.storyboard */,
 				58E54C53268F7BDC00EC159A /* Info.plist */,
 			);
-			path = SampleProject;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		58E54C72268F8F9A00EC159A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				58E54C75268F916D00EC159A /* Tabbar */,
+				58E54C76268F917300EC159A /* Chart */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58E54C75268F916D00EC159A /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				58E54C79268F917E00EC159A /* TabbarVC.swift */,
+				58E54C77268F917E00EC159A /* TabbarConfig.swift */,
+				58E54C78268F917E00EC159A /* TabbarModel.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		58E54C76268F917300EC159A /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				58E54C49268F7BDB00EC159A /* BarChart.swift */,
+				58E54C7E268F999000EC159A /* PieChart.swift */,
+				58E54C8A268F9E3A00EC159A /* PieBChart.swift */,
+				58E54C69268F8B3000EC159A /* Component.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		58E54C7D268F996A00EC159A /* Pie */ = {
+			isa = PBXGroup;
+			children = (
+				58E54C80268F99C800EC159A /* PieChart.swift */,
+				58E54C81268F99C800EC159A /* PieChartScrollView.swift */,
+				58E54C84268F99CF00EC159A /* VerticalStack.swift */,
+				58E54C86268F99D600EC159A /* HorizontalStack.swift */,
+			);
+			path = Pie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,24 +270,6 @@
 			productReference = 58E54C25268F7BC700EC159A /* PieBarChart.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		58E54C2D268F7BC700EC159A /* PieBarChartTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58E54C3C268F7BC700EC159A /* Build configuration list for PBXNativeTarget "PieBarChartTests" */;
-			buildPhases = (
-				58E54C2A268F7BC700EC159A /* Sources */,
-				58E54C2B268F7BC700EC159A /* Frameworks */,
-				58E54C2C268F7BC700EC159A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				58E54C31268F7BC700EC159A /* PBXTargetDependency */,
-			);
-			name = PieBarChartTests;
-			productName = PieBarChartTests;
-			productReference = 58E54C2E268F7BC700EC159A /* PieBarChartTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		58E54C42268F7BDB00EC159A /* SampleProject */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58E54C54268F7BDC00EC159A /* Build configuration list for PBXNativeTarget "SampleProject" */;
@@ -180,10 +277,12 @@
 				58E54C3F268F7BDB00EC159A /* Sources */,
 				58E54C40268F7BDB00EC159A /* Frameworks */,
 				58E54C41268F7BDB00EC159A /* Resources */,
+				58E54C70268F8D5400EC159A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				58E54C6F268F8D5400EC159A /* PBXTargetDependency */,
 			);
 			name = SampleProject;
 			productName = SampleProject;
@@ -201,9 +300,7 @@
 				TargetAttributes = {
 					58E54C24268F7BC700EC159A = {
 						CreatedOnToolsVersion = 12.5.1;
-					};
-					58E54C2D268F7BC700EC159A = {
-						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					58E54C42268F7BDB00EC159A = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -224,7 +321,6 @@
 			projectRoot = "";
 			targets = (
 				58E54C24268F7BC700EC159A /* PieBarChart */,
-				58E54C2D268F7BC700EC159A /* PieBarChartTests */,
 				58E54C42268F7BDB00EC159A /* SampleProject */,
 			);
 		};
@@ -238,20 +334,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58E54C2C268F7BC700EC159A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		58E54C41268F7BDB00EC159A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				58E54C52268F7BDC00EC159A /* LaunchScreen.storyboard in Resources */,
 				58E54C4F268F7BDC00EC159A /* Assets.xcassets in Resources */,
-				58E54C4D268F7BDB00EC159A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +350,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		58E54C2A268F7BC700EC159A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58E54C34268F7BC700EC159A /* PieBarChartTests.swift in Sources */,
+				58E54C62268F822C00EC159A /* BarChartAddSubviews.swift in Sources */,
+				58E54C83268F99C800EC159A /* PieChartScrollView.swift in Sources */,
+				58E54C5A268F80EB00EC159A /* BarChart.swift in Sources */,
+				58E54C60268F81FA00EC159A /* BarChartScrollView.swift in Sources */,
+				58E54C87268F99D600EC159A /* HorizontalStack.swift in Sources */,
+				58E54C82268F99C800EC159A /* PieChart.swift in Sources */,
+				58E54C85268F99D000EC159A /* VerticalStack.swift in Sources */,
+				58E54C67268F869E00EC159A /* PieBarChart.swift in Sources */,
+				58E54C5D268F810900EC159A /* Model.swift in Sources */,
+				58E54C65268F84A000EC159A /* PieBarChartProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,31 +367,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58E54C4A268F7BDB00EC159A /* ViewController.swift in Sources */,
+				58E54C4A268F7BDB00EC159A /* BarChart.swift in Sources */,
+				58E54C8B268F9E3A00EC159A /* PieBChart.swift in Sources */,
+				58E54C6A268F8B3000EC159A /* Component.swift in Sources */,
+				58E54C7C268F917F00EC159A /* TabbarVC.swift in Sources */,
+				58E54C7F268F999000EC159A /* PieChart.swift in Sources */,
 				58E54C46268F7BDB00EC159A /* AppDelegate.swift in Sources */,
-				58E54C48268F7BDB00EC159A /* SceneDelegate.swift in Sources */,
+				58E54C7B268F917E00EC159A /* TabbarModel.swift in Sources */,
+				58E54C7A268F917E00EC159A /* TabbarConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		58E54C31268F7BC700EC159A /* PBXTargetDependency */ = {
+		58E54C6F268F8D5400EC159A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 58E54C24268F7BC700EC159A /* PieBarChart */;
-			targetProxy = 58E54C30268F7BC700EC159A /* PBXContainerItemProxy */;
+			targetProxy = 58E54C6E268F8D5400EC159A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		58E54C4B268F7BDB00EC159A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58E54C4C268F7BDB00EC159A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		58E54C50268F7BDC00EC159A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -438,6 +525,7 @@
 		58E54C3A268F7BC700EC159A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = EXG8QZR967;
@@ -446,6 +534,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PieBarChart/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,14 +543,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NeuralSilicon.PieBarChart;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		58E54C3B268F7BC700EC159A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = EXG8QZR967;
@@ -470,6 +562,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PieBarChart/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,44 +571,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NeuralSilicon.PieBarChart;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		58E54C3D268F7BC700EC159A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EXG8QZR967;
-				INFOPLIST_FILE = PieBarChartTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = NeuralSilicon.PieBarChartTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		58E54C3E268F7BC700EC159A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EXG8QZR967;
-				INFOPLIST_FILE = PieBarChartTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = NeuralSilicon.PieBarChartTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -526,7 +584,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EXG8QZR967;
-				INFOPLIST_FILE = SampleProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SampleProject/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,7 +593,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NeuralSilicon.SampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -545,7 +604,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EXG8QZR967;
-				INFOPLIST_FILE = SampleProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SampleProject/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -553,7 +613,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NeuralSilicon.SampleProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -574,15 +634,6 @@
 			buildConfigurations = (
 				58E54C3A268F7BC700EC159A /* Debug */,
 				58E54C3B268F7BC700EC159A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58E54C3C268F7BC700EC159A /* Build configuration list for PBXNativeTarget "PieBarChartTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58E54C3D268F7BC700EC159A /* Debug */,
-				58E54C3E268F7BC700EC159A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

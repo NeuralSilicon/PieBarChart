@@ -7,7 +7,7 @@ CocoPod library written in Swift
 `PieBarChart` is a pie and bar chart that includes selections and animations.
 
 
-![Bar](https://user-images.githubusercontent.com/35051980/124334912-2b9c3b80-db5e-11eb-889b-307414d92e70.gif)![Pie](https://user-images.githubusercontent.com/35051980/124334809-e841cd00-db5d-11eb-8d44-e2664a4b2419.gif)![PieBar](https://user-images.githubusercontent.com/35051980/124334885-1a532f00-db5e-11eb-8b4f-0b33c5736261.gif)![BarDark](https://user-images.githubusercontent.com/35051980/124335056-9ea5b200-db5e-11eb-8897-816ee2580ee7.gif)
+![Bar](https://user-images.githubusercontent.com/35051980/124334912-2b9c3b80-db5e-11eb-889b-307414d92e70.gif)![Pie](https://user-images.githubusercontent.com/35051980/124334809-e841cd00-db5d-11eb-8d44-e2664a4b2419.gif)![PieBar](https://user-images.githubusercontent.com/35051980/124334885-1a532f00-db5e-11eb-8b4f-0b33c5736261.gif)![BarDark](https://user-images.githubusercontent.com/35051980/124335056-9ea5b200-db5e-11eb-8897-816ee2580ee7.gif)![PieDark](https://user-images.githubusercontent.com/35051980/124335099-c39a2500-db5e-11eb-8599-e6e050a205a6.gif)![PieBarDark](https://user-images.githubusercontent.com/35051980/124335124-df9dc680-db5e-11eb-8ee8-dd3154d1a793.gif)
 
 
 ## Installation

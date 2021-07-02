@@ -1,6 +1,6 @@
 
 # PieBarChart
-CocoPod library written in Swift
+CocoaPod library written in Swift version 5 for iOS 13 above.
 
 ## Introduction
 

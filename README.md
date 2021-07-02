@@ -5,7 +5,7 @@ CocoPod library written in Swift
 
 `PieBarChart` is a pie and bar chart that includes selections and animations.
 
-![](bar.gif)
+![Pie](https://user-images.githubusercontent.com/35051980/124334809-e841cd00-db5d-11eb-8d44-e2664a4b2419.gif)
 
 
 ## Installation

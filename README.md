@@ -4,6 +4,8 @@ CocoaPod library written in Swift 5 with UIKit for iOS 13+.
 
 ## Introduction
 
+Ian Cooper: Architect, designer, and engineer
+
 `PieBarChart` is a pie and bar chart that includes selections and animations.
 
 
